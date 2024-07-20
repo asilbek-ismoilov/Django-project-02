@@ -69,6 +69,13 @@
                     <div class="nav-menu">
                         <ul>
                             <li><a href="{% url 'home-page' %}">Home</a></li>
+                            <li>
+                                Blog
+                                <ul>
+                                    <li><a href="{% url 'blogmas-page' %}">Blog Masonry</a></li> <!-- "blog-masonry.html" -->
+                                    <li><a href="{% url 'blogsid-page' %}">Blog Masonry Sidebar</a></li> <!-- "blog-masonry-with-sidebar.html" -->
+                                </ul>
+                            </li>
                             <li><a href="{% url 'portfolio-page' %}">Portfolio</a></li>
                             <li><a href="{% url 'books-page' %}">Books</a></li>
                             <li><a href="{% url 'gallery-page' %}">Gallery</a></li>

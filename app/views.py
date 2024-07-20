@@ -17,3 +17,15 @@ def about_view(request):
 
 def contact_view(request):
     return render(request, "contact.html")
+
+def singlegal_view(request):
+    return render(request, "gallery-single.html")
+
+def blogmas_view(request):
+    return render(request, "blog-masonry.html")
+
+def blogsid_view(request):
+    return render(request, "blog-sidebar.html")
+
+def form_view(request):
+    return render(request, "form-elem.html")
